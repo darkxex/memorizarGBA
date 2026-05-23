@@ -209,7 +209,7 @@ int main()
 
         // Feedback visual de parpadeo sobre la carta seleccionada
         for(int i = 0; i < 12; ++i) {
-            if(i == cursor_index && !cartas[i].resuelta) {
+            if(i == cursor_index ) {
                 cartas[i].sprite.set_visible((frame_count % 16) < 8); 
             } else {
                 cartas[i].sprite.set_visible(true);
