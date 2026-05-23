@@ -1,4 +1,4 @@
-main.o: C:/butano/examples/memorizar/src/main.cpp \
+main.o: C:/butano/examples/memorizarGBA/src/main.cpp \
  C:/butano/butano/include/bn_core.h C:/butano/butano/include/bn_span.h \
  C:/butano/butano/include/bn_array.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
@@ -53,17 +53,20 @@ main.o: C:/butano/examples/memorizar/src/main.cpp \
  C:/butano/butano/include/bn_power_of_two.h \
  C:/butano/butano/include/bn_utf8_character.h \
  C:/butano/butano/include/bn_utf8_characters_map.h \
- C:/butano/examples/memorizar/build/bn_sprite_items_common_variable_8x16_font.h \
+ C:/butano/examples/memorizarGBA/build/bn_sprite_items_common_variable_8x16_font.h \
  C:/butano/butano/include/bn_sprite_item.h \
  C:/butano/butano/include/bn_sprite_text_generator.h \
  C:/butano/butano/include/bn_vector.h \
  C:/butano/butano/include/bn_camera_ptr.h \
  C:/butano/butano/include/bn_sprite_font.h \
  C:/butano/butano/include/bn_string.h \
- C:/butano/examples/memorizar/build/bn_sprite_items_imaback.h \
- C:/butano/examples/memorizar/build/bn_sprite_items_ima.h \
- C:/butano/examples/memorizar/build/bn_sprite_items_ima2.h \
- C:/butano/examples/memorizar/build/bn_sprite_items_ima3.h
+ C:/butano/examples/memorizarGBA/build/bn_sprite_items_imaback.h \
+ C:/butano/examples/memorizarGBA/build/bn_sprite_items_ima.h \
+ C:/butano/examples/memorizarGBA/build/bn_sprite_items_ima2.h \
+ C:/butano/examples/memorizarGBA/build/bn_sprite_items_ima3.h \
+ C:/butano/examples/memorizarGBA/build/bn_sound_items.h \
+ C:/butano/butano/include/bn_sound_item.h \
+ C:/butano/butano/include/bn_sound_handle.h
 C:/butano/butano/include/bn_core.h:
 C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_array.h:
@@ -121,14 +124,17 @@ C:/butano/butano/include/bn_utf8_characters_map_ref.h:
 C:/butano/butano/include/bn_power_of_two.h:
 C:/butano/butano/include/bn_utf8_character.h:
 C:/butano/butano/include/bn_utf8_characters_map.h:
-C:/butano/examples/memorizar/build/bn_sprite_items_common_variable_8x16_font.h:
+C:/butano/examples/memorizarGBA/build/bn_sprite_items_common_variable_8x16_font.h:
 C:/butano/butano/include/bn_sprite_item.h:
 C:/butano/butano/include/bn_sprite_text_generator.h:
 C:/butano/butano/include/bn_vector.h:
 C:/butano/butano/include/bn_camera_ptr.h:
 C:/butano/butano/include/bn_sprite_font.h:
 C:/butano/butano/include/bn_string.h:
-C:/butano/examples/memorizar/build/bn_sprite_items_imaback.h:
-C:/butano/examples/memorizar/build/bn_sprite_items_ima.h:
-C:/butano/examples/memorizar/build/bn_sprite_items_ima2.h:
-C:/butano/examples/memorizar/build/bn_sprite_items_ima3.h:
+C:/butano/examples/memorizarGBA/build/bn_sprite_items_imaback.h:
+C:/butano/examples/memorizarGBA/build/bn_sprite_items_ima.h:
+C:/butano/examples/memorizarGBA/build/bn_sprite_items_ima2.h:
+C:/butano/examples/memorizarGBA/build/bn_sprite_items_ima3.h:
+C:/butano/examples/memorizarGBA/build/bn_sound_items.h:
+C:/butano/butano/include/bn_sound_item.h:
+C:/butano/butano/include/bn_sound_handle.h:

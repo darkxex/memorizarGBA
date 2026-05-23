@@ -14,7 +14,7 @@
 #include "bn_sprite_items_ima.h"
 #include "bn_sprite_items_ima2.h"
 #include "bn_sprite_items_ima3.h"
-
+#include "bn_sound_items.h" 
 struct Carta {
     int id;
     int x;
@@ -190,7 +190,8 @@ int main()
                         primer_seleccionada = -1;
                         segundo_seleccionada = -1;
                         
-                        parejas_resueltas++; 
+                        parejas_resueltas++;
+                        bn::sound_items::cure.play(); 
                         actualizar_marcador = true; // <-- Fuerza a redibujar el marcador
 
                         // Condición de victoria: completar las 6 parejas
@@ -201,6 +202,7 @@ int main()
                         if (texto_sprites.empty()) {
                         text_generator.set_center_alignment();
                         text_generator.generate(0, -65, "¡No es Par!", texto_sprites);}
+                        bn::sound_items::flame.play();
                         tiempo_espera = 45; // 0.75 segundos para memorizar el error
                     }
                 }
